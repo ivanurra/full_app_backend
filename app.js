@@ -17,7 +17,7 @@ const cors          = require("cors");
 const User = require('./models/User')
 
 mongoose
-	.connect('mongodb+srv://ivanurra:cMn9LOB8T8gmuCdA@cluster0.gppi7.mongodb.net/manga?retryWrites=true&w=majority', {
+	.connect('mongodb+srv://ivanurra:MRgjAS4a1SHJtbcU@cluster0.gppi7.mongodb.net/manga?retryWrites=true&w=majority', {
 		useNewUrlParser: true,
 		useUnifiedTopology: true
 	})
